@@ -39,7 +39,7 @@ Represents the "base" class for all other classes in the project. Includes:
 * Static method `def to_json_string(list_dictionaries):` that returns the JSON
 string serialization of a list of dictionaries.
   * If `list_dictionaries` is `None` or empty, returns the string `"[]"`.
-* Class method `def save_to_file(cls, list_objs):` that writes the JSON
+* Class method `def save_to_file(cls, list_objs): ` that writes the JSON
 serialization of a list of objects to a file.
   * The parameter `list_objs` is expected to be a list of `Base`-inherited
   instances.
